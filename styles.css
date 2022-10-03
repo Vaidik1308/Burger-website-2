@@ -1,0 +1,97 @@
+html
+{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body
+{
+    color: aliceblue;
+    background-image: url("./images/ilya-mashkov-mkVa2hLJgnI-unsplash.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+.main
+{
+    display: inline-block;
+    position: relative;
+    margin-left: 6px;
+}
+.text-overlay
+{
+    
+    transform: translate(-50%,-50%);
+}
+.text1
+{
+    position: absolute;
+    bottom: 60.6%;
+    right: 29.6%;
+    transform: translate(-50%,-50%);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.6rem;
+}
+.text2
+{
+    position: absolute;
+    top: 76%;
+    left: 11%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.5rem;
+}
+.text3
+{
+    position: absolute;
+    bottom: -23.4%;
+    right: -58.5%;
+    transform: translate(-50%,-50%);
+    font-family: 'Bowlby One', cursive;
+    font-size: 3.5rem;
+    margin: 8px 1px;
+}
+.text4
+{
+    position: absolute;
+    top: 113%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.5rem;  
+}
+.text5
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.button
+{
+    padding: 0 7px;
+    position: absolute;
+    top: 64%;
+    left: 9.2%;
+    transform: translate(-50%,-50%);
+}
+.main1
+{
+    position: absolute !important;
+    top: 116.9%;
+}
+.head
+{
+    background-color: black !important;
+    padding: 20px 0;
+}
+.min-head
+{
+    background-color: black !important;
+}
+.title
+{
+    color: aliceblue;
+}
+.bold
+{
+    color:aliceblue !important;
+}
